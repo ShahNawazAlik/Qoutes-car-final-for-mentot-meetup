@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project-Qoutes</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body onload="initializing()">
+    
+	<div  id="cars-list"></div> 
+
+	<div id="cars-details" class="card" >
+  <div class="card-body" id="cards-bodi" >
+    <h5 id="car-name" class="card-title"></h5>
+    <h6 id="car-company" class="card-subtitle mb-2 text-muted"></h6>
+    <div class="car-image"></div>
+    <p id="car-model" class="card-text"></p>
+    <p id="car-price"></p>
+    <p id="cars-bottom-links">Read more on <a href=""> <strong>Wikipedia</strong>     </a></p>
+    <p id="car-website">Click For <a href=""> <strong> Pakwheels.com</strong></a></p>
+  </div>
+</div>   
+
+
+	<div onclick="changeCar()"></div>
+</body>
+</html>
